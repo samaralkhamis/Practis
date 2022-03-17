@@ -1,8 +1,19 @@
-div{
-    position:absolute;
-     top: 30%;
-      left: 30%; 
+.d1{
+  position: absolute;
+  top :15%;
+  left: 25%;
       background-color: black;
        color:aliceblue ;
-       padding: 10%;
+       padding: 15%;
+}
+
+
+
+
+@media screen and (max-width:425){
+
+    .d1 p{
+  font-size: 5px;
+    }
+
 }
