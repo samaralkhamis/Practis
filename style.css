@@ -1,15 +1,113 @@
-.d1{
+ .d1{
   position: absolute;
   top :15%;
   left: 25%;
-      background-color: black;
+background-color: black;
        color:aliceblue ;
        padding: 15%;
+} 
+
+.b1{
+  box-sizing: border-box;
+  background-color: black;
+}
+.overlay {
+    opacity: 0;
+    transition: 1s ease;
+
+  }
+  .overlay:hover  {
+    opacity: 0.7;
+  }
+  .overlay2 {
+    opacity: 0;
+    transition: 1s ease;
+
+  }
+  .overlay2:hover {
+    opacity: 0.7;
+  }
+  .overlay3 {
+    opacity: 0;
+    transition: .5s ease;
+
+  }
+  .overlay3:hover  {
+    opacity:0.7;
+  }
+  .text {
+    background-color: rgb(236, 239, 241);
+    color: black;
+    width:180px;
+    padding: 4%;
+   margin-top:-200px ;
+   margin-left: 180px;
+    font-size: 17px;
+    overflow: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+  }
+  .text2 {
+    background-color: rgb(236, 239, 241);
+    color: black;
+    width:160px;
+    padding: 5%;
+   margin-top:-170px ;
+   margin-left: 180px;
+    font-size: 17px;
+    overflow: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .text3 {
+    background-color: rgb(236, 239, 241);
+    color: black;
+    width:200px;
+    padding: 2%;
+   margin-top:-150px ;
+   margin-left: 110px;
+    font-size: 17px;
+    overflow: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.img{
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/25/18/48/watercolor-2681039_960_720.jpg');
+  margin:1%;
+  margin-left:-2%;
+   
+}
+.img1{
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/25/18/48/watercolor-2681039_960_720.jpg');
+  margin-top:0;
+  margin-left:-2%;
+
+}
+.img2{
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/25/18/48/watercolor-2681039_960_720.jpg');
+    margin-top: 0;
+    margin-left: -2%;
+
+    
 }
 
 
 
+.overlaycircle {
+  opacity: 1;
+  transition: 0.2s ease;
 
+}
+.overlaycircle:hover  {
+  opacity: 0;
+
+}
 @media screen and (max-width:425){
 
     .d1 p{
